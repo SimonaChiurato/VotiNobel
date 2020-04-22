@@ -20,8 +20,8 @@ public class Model {
 
 	public Set<Esame> calcolaSottoinsiemeEsami(int numeroCrediti) {
 		Set<Esame> parziale = new HashSet<>();
-		//cerca1(parziale, 0, numeroCrediti);
-		cerca2(parziale, 0, numeroCrediti);
+		cerca1(parziale, 0, numeroCrediti);
+		//cerca2(parziale, 0, numeroCrediti);
 
 		return bestSoluzione;
 	}
